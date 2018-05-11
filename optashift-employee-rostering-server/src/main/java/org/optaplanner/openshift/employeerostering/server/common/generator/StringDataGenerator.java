@@ -109,7 +109,7 @@ public class StringDataGenerator {
     public static StringDataGenerator buildLocationNames() {
         return new StringDataGenerator()
                 .addPart(true, 0,
-                        "Los",
+                        "PLK",
                         "San",
                         "Las",
                         "Santa",
@@ -120,7 +120,7 @@ public class StringDataGenerator {
                         "Little",
                         "El")
                 .addPart(true, 1,
-                        "Angeles",
+                        "Tong Nai Kan",
                         "Francisco",
                         "Vegas",
                         "Barbara",
