@@ -63,7 +63,7 @@ import static org.optaplanner.openshift.employeerostering.gwtui.client.common.Fa
 @ApplicationScoped
 public class SpotRosterPage implements Page {
 
-    private static final Integer SOLVE_TIME_IN_SECONDS = 600;
+    private static final Integer SOLVE_TIME_IN_SECONDS = 30;
 
     @Inject
     @DataField("toolbar")
