@@ -108,12 +108,12 @@ OPENSHIFT_USER=${ARG_USERNAME:-$LOGGEDIN_USER}
 PRJ_SUFFIX=${ARG_PROJECT_SUFFIX:-`echo $OPENSHIFT_USER | sed -e 's/[-@].*//g'`}
 PRJ=optashift-employee-rostering-$PRJ_SUFFIX
 
-PRJ_DISPLAY_NAME="OptaShift Employee Rostering"
-PRJ_DESCRIPTION="Employee Rostering with OptaPlanner on OpenShift"
+PRJ_DISPLAY_NAME="Employee Rostering"
+PRJ_DESCRIPTION="Employee Rostering"
 
 # config
-GITHUB_ACCOUNT=${GITHUB_ACCOUNT:-kiegroup}
-SOURCE_REPOSITORY_URL=https://github.com/$GITHUB_ACCOUNT/optashift-employee-rostering
+GITHUB_ACCOUNT=${GITHUB_ACCOUNT:-doc18}
+SOURCE_REPOSITORY_URL=https://github.com/$GITHUB_ACCOUNT/employee-rostering
 
 
 ################################################################################
