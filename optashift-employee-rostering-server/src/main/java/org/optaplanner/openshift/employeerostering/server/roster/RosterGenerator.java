@@ -91,7 +91,7 @@ public class RosterGenerator {
     private final StringDataGenerator employeeNameGenerator = StringDataGenerator.buildFullNames();
 
     private final GeneratorType hospitalGeneratorType = new GeneratorType(
-            "Hospital",
+            "PLK",
             new StringDataGenerator()
                     .addPart(
                             "Ambulatory care",
